@@ -1,0 +1,15 @@
+.footer{
+    background: #011e20;
+    color: #FFF;
+    padding: 1.6rem;
+    text-align: center;
+}
+
+.footer > p > span{
+    color: #03989E;
+}
+
+.footer > p{
+    color: #FFF;
+    line-height: 1.8;
+}

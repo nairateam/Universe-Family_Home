@@ -1,0 +1,100 @@
+.about{
+    padding: 0;
+    margin-bottom: 4rem;
+}
+
+.about h3{
+    margin: 0 auto;
+    width: 14rem;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #03989E;
+}
+
+.about > p{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(15, 15, 15, 0.826);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.flex__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 8rem;
+    gap: 8rem;
+    color: rgba(0, 0, 0, 0.854);
+    background: #011e20;
+    background-image: url(../IMAGES/lovvc.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 15%;
+}
+
+.flex__wrap{
+    flex: 50%;
+    padding: 0 1rem;
+}
+
+.flex__wrap h4{
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.flex__wrap h4 span{
+    color: #03989E;
+}
+
+.flex__wrap p{
+    padding: 1rem 0 0 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.79);
+}
+
+.flex__wrap p span{
+    color: #03989E;
+}
+
+.flex__wrap:nth-child(1){
+    background: url(../IMAGES/Group.png);
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+/* .flex__wrap p::first-letter{
+    font-size: 2.5rem;
+    padding-right: 0.2rem;
+} */
+
+.medlogo{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+    border-radius: 14px;
+    border: 8px solid #03989E;
+}
+
+@media only screen and (max-width: 1024px) {
+    .flex__container{
+        flex-direction: column-reverse;
+        padding: 4rem 2rem;
+        gap: 2rem;
+    }
+
+    .flex__wrap p:nth-child(2){
+        display: none;
+    }
+
+    .medlogo{
+        display: none;
+    }
+    
+}

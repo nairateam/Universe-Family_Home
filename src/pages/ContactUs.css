@@ -1,0 +1,87 @@
+
+
+.form__cover{
+    padding: 4rem;
+    padding: 2% 20%;
+}
+
+.top_write{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    margin: 0 1rem;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 4px;
+    background: rgb(11, 73, 73);
+    color: #FFF;
+}
+
+.top_write > h3{
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.top_write p{
+    color: rgb(208, 206, 206);
+    padding: 0.4rem 0;
+}
+
+.form__cover form{
+    /* background: red; */
+    /* padding: 2% 20%; */
+    padding-top: 0;
+    margin-bottom: 4rem;
+}
+
+.form__control{
+    padding: 1rem;
+}
+
+.form__control input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 3rem;
+    background: none;
+    border: 2px solid #000;
+}
+
+.form__control textarea{
+    box-sizing: border-box;
+    width: 100%;
+    background: none;
+    border: 2px solid #000;
+}
+
+.form__control .button_c{
+    background: #03989E;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .form__cover{
+        padding: 4rem;
+        padding: 2% 5%;
+    }
+
+    .form__cover form{
+        visibility: visible;
+    }
+
+    .top_write{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .top_write h3{
+        padding-bottom: 0.8rem;
+    }
+
+    .top_write p{
+        padding: 0.2rem 0;
+    }
+}
